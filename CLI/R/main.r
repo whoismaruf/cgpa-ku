@@ -44,6 +44,7 @@ check <- function(mark) {
   }
 }
 
+# Now Get the vector of grades from the given marks and store them in 'res'
 res <- c()
 
 for (i in 1:length(marks)){
