@@ -57,7 +57,7 @@ cgpa = sum(df$Credit*res)/sum(df$Credit)
 
 # Print individual subjectwise result
 print("-----------------------------------------------------------")
-print(paste(df$Course, '(', marks, ')' ,'->', res))
+print(paste(df$Course, '(',marks,')' ,'->', res))
 print("-----------------------------------------------------------")
 # Print CGPA
 print(paste('Your earned CGPA is', '->' ,round(cgpa, digits = 2)))
